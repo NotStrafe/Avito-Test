@@ -5,11 +5,12 @@
 1) (опционально) создать окружение <br>
    ```python -m venv .venv && source .venv/bin/activate```
 2) установить зависимости <br>
-   ```pip install < requirements.txt```
-3) запустить инференс <br>
+   ```pip install -r requirements.txt```
+3) перенести ваш датасет в корень проекта
+4) запустить инференс <br>
    ```python inference.py -i dataset.csv -o submission.csv``` <br>
    или <br>
-   ```python inference.py -i dataset_XXXX.txt -о submission.csv```
+   ```python inference.py -i dataset.txt -o submission.csv```
 
 
 ## Навигация
