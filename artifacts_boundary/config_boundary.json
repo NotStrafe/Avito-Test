@@ -1,0 +1,9 @@
+{
+  "window": 5,
+  "n_features": 262144,
+  "neg_downsample": 0.3,
+  "alpha": 1e-05,
+  "use_unigram": true,
+  "unigram_min_count": 5,
+  "seed": 42
+}
