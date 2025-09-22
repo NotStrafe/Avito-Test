@@ -8,9 +8,9 @@
    ```pip install -r requirements.txt```
 3) перенести ваш датасет в корень проекта
 4) запустить инференс <br>
-   ```python inference.py -i dataset.csv -o submission.csv``` <br>
+   ```python inference.py -i your_dataset.csv -o submission.csv``` <br>
    или <br>
-   ```python inference.py -i dataset.txt -o submission.csv```
+   ```python inference.py -i your_dataset.txt -o submission.csv```
 
 
 ## Навигация
