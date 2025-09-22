@@ -2,19 +2,19 @@
 
 ## Как запустить
 
-1) (опционально) создать окружение
-   python -m venv .venv && source .venv/bin/activate
-2) установить зависимости
-   pip install < requirements.txt
+1) (опционально) создать окружение //
+   ```python -m venv .venv && source .venv/bin/activate```
+2) установить зависимости //
+   ```pip install < requirements.txt```
 3) запустить инференс
-   python inference.py -i dataset.csv -o submission.csv
-   или
-   python inference.py -i dataset_XXXX.txt -о submission.csv
+   ```python inference.py -i dataset.csv -o submission.csv``` //
+   или //
+   ```python inference.py -i dataset_XXXX.txt -о submission.csv```
 
 
 ## Навигация
 
-research.ipynb - процесс обучения и исследования
+research.ipynb - процесс обучения и исследования //
 inference.py - инференс модели
 
 
