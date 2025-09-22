@@ -20,10 +20,8 @@ credentials.*
 
 # Сырые данные
 *.csv
-*.tsv
 *.xlsx
 *.xls
-*.json
 *.parquet
 *.npy
 *.npz
@@ -40,3 +38,9 @@ credentials.*
 
 __pycache__
 .hf_cache
+
+ruwiki_dump
+prepared_corpus/train.jsonl
+prepared_corpus/val.jsonl
+prepared_corpus/sp_corpus.txt
+dataset_1937770_3.txt
